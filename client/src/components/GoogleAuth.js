@@ -56,7 +56,7 @@ class GoogleAuth extends React.Component {
                     </button>
                 );
             default:
-                return null;
+                return <div className="button-placeholder"></div>
         }
     }
 
