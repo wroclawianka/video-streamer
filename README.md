@@ -1,4 +1,4 @@
-# video-streamer
+# video streamer
 
  - :mega: full stack video streamer
  - :wrench: React + Redux, Google OAuth, Semantic UI
