@@ -1,4 +1,6 @@
 import React from "react";
+import {connect} from 'react-redux';
+import {fetchStreamList} from '../../actions'
 
 const StreamList = () => {
     return (
@@ -6,4 +8,4 @@ const StreamList = () => {
     )
 };
 
-export default StreamList;
+export default connect(null, {fetchStreamList})(StreamList);
