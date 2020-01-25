@@ -1,0 +1,24 @@
+{
+  "name": "video-streamer",
+  "version": "1.0.0",
+  "description": "full stack video streamer done during course: Modern React with Redux by Stephen Grider",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd api && npm start\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wroclawianka/video-streamer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wroclawianka/video-streamer/issues"
+  },
+  "homepage": "https://github.com/wroclawianka/video-streamer#readme"
+}

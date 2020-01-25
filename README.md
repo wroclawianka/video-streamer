@@ -2,7 +2,7 @@
 
  - :mega: full stack video streamer done during course: [Modern React with Redux](https://www.udemy.com/share/100YAOBUAcc11bTHw=/) by Stephen Grider
  - :wrench: React + Redux, Google OAuth, Semantic UI, JSON server (mock of db)
- - :date: December 2019
+ - :date: December 2019 - January 2020
 
 ## Getting started
 
@@ -18,7 +18,7 @@ cd client && npm install
 ```
 Backend -->  not yet provided
 ```
-cd backend && npm install
+cd api && npm install
 ```
 
 

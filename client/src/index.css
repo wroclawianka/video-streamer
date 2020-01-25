@@ -5,3 +5,9 @@
 .button-placeholder {
     width: 119px;
 }
+
+.container {
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+}
