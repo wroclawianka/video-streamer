@@ -4,7 +4,8 @@
   "description": "full stack video streamer done during course: Modern React with Redux by Stephen Grider",
   "main": "index.js",
   "dependencies": {
-    "concurrently": "^5.0.2"
+    "concurrently": "^5.0.2",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {},
   "scripts": {
