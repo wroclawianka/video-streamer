@@ -12,10 +12,10 @@ class StreamList extends React.Component {
         if (stream.userId === this.props.currentUserId) {
             return (
                 <div className='right floated content'>
-                    <button className="tiny ui button">
+                    <button className="mini ui button">
                         Edit
                     </button>
-                    <button className="tiny ui button">
+                    <button className="mini ui button">
                         Delete
                     </button>
                 </div>
@@ -26,7 +26,7 @@ class StreamList extends React.Component {
     renderList() {
         return this.props.streams.map(stream => {
             return (
-                <div className="item" key={stream.id}>
+                <div className="item" key={stream.id} style={{padding: '10px 0'}}>
                     {this.renderAdmin(stream)}
                     <i className="large middle aligned icon camera"/>
                     <div className="content">
