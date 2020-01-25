@@ -30,7 +30,7 @@ class StreamList extends React.Component {
                     {this.renderAdmin(stream)}
                     <i className="large middle aligned icon camera"/>
                     <div className="content">
-                        {stream.title}
+                        <span style={{fontSize: '110%', fontWeight: 'bold'}}>{stream.title}</span>
                         <div className="description">
                             {stream.description}
                         </div>
